@@ -1,0 +1,48 @@
+
+
+/* alerts */
+.bootbox.modal.d-form-alert .modal-dialog, .bootbox.modal.d-form-confirm .modal-dialog{
+	position: fixed;
+	bottom:0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1100;
+	padding: 5px; 
+	margin: 0px;
+	text-align: center;
+	color: #E9EDEF;
+    background-color: rgba(52,152,219,.88);
+    border-color: rgba(52,152,219,.88);
+}
+.bootbox.modal.d-form-alert .modal-dialog .modal-content, .bootbox.modal.d-form-confirm .modal-dialog .modal-content{
+	background: transparent;
+}
+.bootbox.modal.d-form-alert .modal-dialog .modal-footer, .bootbox.modal.d-form-confirm .modal-dialog .modal-footer{
+	text-align: center;
+}
+.modal.left.d-pageoverlay .modal-dialog,
+.modal.right.d-pageoverlay .modal-dialog {
+	height: 100%;
+    /*width: 80%;*/
+    /*top: 62px;*/
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    background-color: rgb(249,249,249); /* Black fallback color */
+    background-color: rgba(249,249,249, 1); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+	
+}
+.modal.d-pageoverlay {
+	
+	position: absolute !important;
+	height: auto;
+	overflow: auto;
+}
+/*modal header*/
+.modal-header .close{
+	font-size: 35px;
+}
+.modal-header .modal-title{
+	line-height: 35px;
+}

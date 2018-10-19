@@ -1,0 +1,188 @@
+/*customized hover behavior*/
+/*.btn:hover{
+	background: rgba(255, 0, 0, 0.54);
+	color: white;
+}*/
+.d-placeholder{
+	color: #aaa;
+    font-size: 13px;
+}
+
+.d-row-add{
+	background: rgba(240, 248, 255, 0.48);
+}
+.d-row-btn{
+	padding: 5px 10px;
+	background: #28ABE3; 
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle !important;
+}
+.d-row-input input, .d-row-input textarea{
+	height: 40px;
+	border: none;
+	background: transparent;
+	color: #a9a9ae;
+}
+.d-form-control{
+	border: none;
+	background: transparent;
+	border: 0px;
+	padding: 5px;
+	width: 100%;
+}
+.d-form-control-dashed{
+	border: none;
+	background: transparent;
+	border: 1px #a9a9ae dashed;
+	padding: 5px;
+	width: 100%;
+}
+/* custom button*/
+.btn{
+    font-family: inherit !important;
+    text-transform: initial!important;
+}
+.d-btn-dialog{
+	background: #28ABE3;
+	color: white;
+	text-transform: initial;
+    font-family: inherit;
+}
+.d-btn-dialog i, .main_menu i, .d-row-btn i{
+	vertical-align: middle;
+	padding-right: 5px;
+}
+
+
+/*icon buttons*/
+.btn i{
+	vertical-align: middle;
+	padding-right: 5px;
+	margin-bottom: 2px;
+}
+
+.d-editfield{
+	display: none;
+	position: absolute;
+	z-index: 99999;
+    
+}
+.d-showfield{
+	padding: 5px;
+	cursor: pointer;
+    min-height: 50px;
+}
+
+textarea{
+	 resize: vertical;
+}
+.d-editfield textarea{
+	background: white;
+}
+
+
+
+/* alerts */
+.d-form-alert,.d-form-confirm{
+	display: none;
+	position: fixed;
+	bottom:0;
+	left: 0;
+	right: 0;
+	z-index: 1100;
+	padding: 5px; 
+	margin: 0px;
+}
+
+
+/*modal status*/
+#sidebar-status .dataTables_filter{ width:auto !important;}
+.hide-col-icons.sorting_asc{ display: none; }
+
+#reason-closure{
+    padding: 15px;
+    border: gray 1px solid ;
+}
+#reason-closure:hover{
+    background: transparent;
+    color: black;
+}
+#reason-closure textarea{
+	background: transparent;
+	border: none;
+}
+
+
+/*add row*/
+/*stakeholders select*/
+
+.select2-selection.search-input-row { 
+    background: transparent !important;
+    border-radius: 0 !important;
+    border-style: none !important;
+    border-bottom: gray dashed 1px !important;
+}
+.select2-selection.search-input-row .select2-selection__arrow{
+	display: none;
+}
+.d-add-row-input{
+	box-shadow: none;
+	margin: 0px;
+	min-height: 38px;
+	line-height: 28px;
+	font-size: 13px;
+	border-style: none;
+    border-bottom: gray dashed 1px;
+}
+/*issue dialog*/
+.d-add-dialog-row{
+	background: #f5f5f5;
+	color: black;
+}
+.d-row-history-mode{
+	background: rgba(221, 221, 221, 0.25);
+}
+.d-row-history-mode.first-row{
+	-webkit-box-shadow: inset -1px 9px 5px 1px rgba(0,0,0,0.06);
+	-moz-box-shadow: inset -1px 9px 5px 1px rgba(0,0,0,0.06);
+	box-shadow: inset -1px 9px 5px 1px rgba(0,0,0,0.06);
+}
+.d-row-history-mode.last-row{
+	-webkit-box-shadow: inset 0px -6px 13px 1px rgba(0,0,0,0.06);
+	-moz-box-shadow: inset 0px -6px 13px 1px rgba(0,0,0,0.06);
+	box-shadow: inset 0px -6px 13px 1px rgba(0,0,0,0.06);
+}
+.d-row-history-mode p{
+	color: gray;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.d-row-closed{
+	background: rgba(247, 247, 247, 0.55);
+	color: gray;
+}
+.d-row-closed p, .d-row-closed a{
+	 color: gray;
+}
+.d-row-closed i{
+	 color: #28ABE3;
+}
+
+
+
+/*show hide issuedialog effect*/
+.animate-show-hide.ng-hide {
+  opacity: 0;
+}
+
+.animate-show-hide.ng-hide-add,
+.animate-show-hide.ng-hide-remove {
+  transition: all linear 0.5s;
+}
+
+    
+
+

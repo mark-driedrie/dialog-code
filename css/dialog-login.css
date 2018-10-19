@@ -1,0 +1,58 @@
+.d-bg-grey{
+    background-color: #f9f9f9;
+} 
+
+.d-bg-full{
+    background-image: url(../images/login-bg-min.png);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center; 
+    width: 100%;
+    height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.d-header-full{
+    width: 100%;
+    text-align: center;
+    min-height: 100px;
+    margin-top: 120px;
+    color: white;
+    font-size: 30pt;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: 30px;
+}
+.d-header-full.visible-xs{
+    margin-top: 50px;
+    font-size: 20pt;
+}
+
+.d-loginform{
+    position: relative;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.75);
+    background-color:#f9f9f9;
+    padding: 10px;
+}
+.d-img-project{
+    max-height: 100px;
+    width: auto;
+}
+
+.d-item-project{
+    padding: 10px;
+}
+.d-item-project:hover{
+    background: #f9f9f9;
+}
+.btn-login,.btn-login:hover{
+    color: white;
+    background: #28ABE3;
+}

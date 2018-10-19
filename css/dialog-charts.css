@@ -1,0 +1,18 @@
+/*stakeholder charts*/
+.stakeholder-detail-chart{
+	 width: 48%;
+     margin: 1%;
+	 float: left;
+}
+.stakeholder-detail-chart.left{
+	margin-left: 0px;
+}
+.stakeholder-detail-chart.right{
+	 margin-right: 0px;
+}
+@media only screen and (max-width: 768px) {
+    .stakeholder-detail-chart{
+	 width: 98%;
+     margin: 1%;
+	}
+}

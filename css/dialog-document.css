@@ -1,0 +1,15 @@
+/*dropzone*/
+.dropzone{
+	min-height: 100px;
+	text-align: center;
+    padding-top: 10px;
+    color: #999;
+}
+.dropzone.dz-drag-hover{
+	background: aliceblue;
+	border: dashed 1px;
+}
+.dropzone i{
+	font-size: 60px;
+	color: #28ABE3;
+}

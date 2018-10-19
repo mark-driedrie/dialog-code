@@ -1,0 +1,129 @@
+/*TODO: fix this */
+.error-message h4 {
+    width: 100%;
+    background-color: #da0705;
+    padding: 10px;
+}
+
+.admin .customers-list {
+    display: table;
+    width: 500px;
+}
+
+.admin .customers-list .header {
+    font-weight: bold;
+}
+
+.admin .customer-entry {
+    display: table-row;
+}
+
+.admin .customer-data {
+    display: table-cell;
+    text-align: left;
+}
+
+.admin .projects-list .header {
+    font-weight: bold;
+}
+
+.admin .projects-list {
+    display: table;
+    width: 850px;
+}
+
+.admin .project-entry {
+    display: table-row;
+}
+
+.admin .project-data {
+    display: table-cell;
+    text-align: left;
+}
+
+.admin .users-list .header {
+    font-weight: bold;
+}
+
+.admin .users-list {
+    display: table;
+    width: 850px;
+    margin-bottom: 10px;
+}
+
+.admin .user-entry {
+    display: table-row;
+}
+
+.admin .user-data {
+    display: table-cell;
+    text-align: left;
+}
+
+.admin ul.modules-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.admin li.modules-list-item {
+    margin-bottom: 10px;
+}
+
+.admin div.module-checkbox {
+    width: 100px;
+}
+
+.admin div.module-checkbox input {
+    margin: 0 5px 0 0;
+}
+
+.admin div.module-config {
+    width: 850px;
+    text-align: right;
+}
+
+.admin div.module-checkbox, .admin div.module-config {
+    display: inline-block;
+}
+
+.admin textarea {
+    padding: 10px;
+    vertical-align: top;
+    width: 500px;
+    height: 200px;
+}
+
+.admin .suggestions-list .header {
+    font-weight: bold;
+}
+
+.admin .suggestions-list {
+    display: table;
+    width: 1024px;
+    margin-bottom: 10px;
+}
+
+.admin textarea.suggestion-response {
+    width: 200px;
+    height: 42px;
+}
+
+.admin .panel, .admin .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #f7f7f7;
+}
+
+.admin ul {
+    list-style: none;
+    padding: 0;
+}
+
+body.admin {
+    background-color: #f7f7f7;
+}
+
+/*Buttons*/
+.admin .delete-button {
+    background: none !important;
+    border: none !important;
+    color: #843534;
+}

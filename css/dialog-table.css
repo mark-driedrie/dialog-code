@@ -1,0 +1,8 @@
+.d-pagination>li>a {
+  background-color: rgb(221, 221, 221);
+  border: none;
+}
+
+.d-pagination>li.active>a {
+  background-color: #28ABE3;
+}
